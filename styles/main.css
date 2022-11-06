@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1300px;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+.user-card{
+    width: 250px;
+    height: 300px;
+    padding: 23px;
+    background-color: #D9D9D9;
+    position: relative;
+    border-radius: 10px;
+}
+
+.user-card > i{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    margin: 10px;
+    cursor: pointer;
+    color: red;
+}
+
